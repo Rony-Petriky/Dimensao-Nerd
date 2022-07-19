@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="vendas.css" />
+    <link rel="stylesheet" type="text/css" href="terceiro-quadrante.css" />
+    <link rel="stylesheet" type="text/css" href="quarto-quadrante.css" />
+    <title>Vendas</title>
+</head>
+<body>
+    <div id="titulo">
+        <h1>CAIXA</h1>
+    </div>
+    
+        <div id="central">  
+            <div id="contener">
+                <form id="formulario" action="">
+                    
+                    <div id="primeiroquadrante">
+                        <div>
+                            <label class="labelNome">PRODUTO</label>
+                            <input id="produtoestoque" class="for" type="text" placeholder="Digite o nome do produto" list="produtos">
+                            <datalist id="produtos">
+                                    
+                             </datalist>
+                        </div>
+                        <div>
+                            <label class="labelNome">NOME</label>
+                            <input class="for" type="text" placeholder="Nome do cliente" >
+                        </div>
+                        <div>
+                            <label class="labelNome">FORMA DE PAGAMENTO</label>
+                            <input type="radio" id="cartao" name="forma-de-pagamento" value="Cartao">
+                            <label for="Cartao">Cartão</label><br>
+                            <input type="radio" id="avista" name="forma-de-pagamento" value="avista">
+                            <label for="avista">Avista</label><br>
+                            <input type="radio" id="a-prazo" name="forma-de-pagamento" value="a-prazo">
+                            <label for="a-prazo">A prazo</label>
+                        </div>
+                        <div id="contenerbotoes">
+                            <div class="botoes">
+                                <button id="botaoProsseguir" type="submit" name="Prosseguir">Prosseguir</button>
+                            </div>
+
+                            <div class="botoes">
+                                <button id="botaoCancelar" type="submit" name="cancelar">Cancelar</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="segundo-quadrante">
+                        <div id="contenerQuantidade">
+                            <label class="labelNome">QUANTIDADE</label>
+                            <input class="for" id="quantidade" type="number" placeholder="0" >
+                        </div>
+                        <div >
+                            <label class="labelNome">VALOR PAGO R$</label>
+                            <input class="for" id="valorpago" type="number" placeholder="R$=" >
+                        </div>
+                    </div>
+                </form>
+                <div id="terceiro-quadrante">
+                    <div id="preço">
+                        <label class="labelNome">Valor R$=</label>  
+                        <H2 id="numero-preço">0,00</H2>
+                        <label id="valordado">0,00</label>
+                    </div> 
+                    <div id="troco">
+                        <label id="troco-titulo" class="labelNome">Troco R$=</label>
+                        <h2 id="troco-dado">0,00</h2>
+                    </div> 
+                </div>
+                <div id="quarto-quadrante">
+                    <div id="produtos-comprados">
+                        <table border="1">
+                            <thead>
+                            <tr>
+                                <th id="tabela-produto">Produto</th>
+                                <th>Quant</th>
+                                <th>Valor</th>
+                            </tr>
+                            </thead>>
+                            <tr id="pronatabela">
+                               
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="botoes">
+                        <button id="botaofinalizar" >Finalizar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="db.js"></script>
+        <script src="pegandoinputs.js"></script>
+        
+      
+</body>
+</html>

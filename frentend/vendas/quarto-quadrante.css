@@ -1,0 +1,29 @@
+#produtos-comprados {
+    
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+  
+    
+}
+#quarto-quadrante{
+    padding-left: 45px;
+    padding-top: 5px;
+}
+#tabela-produto {
+    padding-right: 90px;
+}
+#botaofinalizar {
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    
+}
+#remover {
+    font-size: 10px;
+    border: none;
+    outline:none;
+    cursor: pointer 
+}

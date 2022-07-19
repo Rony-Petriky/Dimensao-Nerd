@@ -1,0 +1,80 @@
+body {
+    background-color: #ffddd2;
+   
+    
+    
+}
+#titulo {
+    background-color: #83c5be;
+    padding: none;
+    
+
+}
+h1 {
+    padding: 15px;
+    background-color: #e29578;
+    color: white;
+    
+}
+#contener {
+    width: 80%;
+    display: flex;
+    background:  #c8a89d;
+    
+}
+.labelNome {
+    display: block;
+    padding-top: 15px;
+    font-size: 10px;
+}
+.for {
+   
+}
+
+#central {
+    display: flex;
+    justify-content: center;
+
+}
+
+#formulario {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#quantidade {
+    padding: none;
+    width: 25px;
+}
+#segundo-quadrante{
+  text-align: center;
+  padding-left: 5px;
+}
+
+.botoes {
+    
+    display: inline-block;
+    padding-top: 10px;
+}
+#contenerbotoes {
+    padding: 5px;
+}
+#botaoProsseguir {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#botaoCancelar {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#valorpago {
+    width: 60px;
+}

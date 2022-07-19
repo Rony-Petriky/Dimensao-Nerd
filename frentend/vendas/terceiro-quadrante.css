@@ -1,0 +1,54 @@
+#terceiro-quadrante {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+#numero-preço {
+    position: relative;
+    display: inline;
+    padding-right: 5px;
+    top: 5px;
+    background-color: white;
+
+
+}
+#preço {
+    background-color: #e29578;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    padding-top: 5px;
+    
+}
+#valordado{
+    background-color: green;
+    position: absolute;
+    display: inline;
+    color: white;
+}
+
+#troco {
+    background-color: #e29578;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    top: 15px;
+    padding-bottom: 5px;
+}
+#troco-dado {
+    padding: 0;
+    display: inline;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+
+}
+#troco-titulo {
+    position: relativa;
+    padding: 0;
+}
